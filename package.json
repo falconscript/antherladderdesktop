@@ -1,0 +1,16 @@
+{
+  "name": "AnthersDesktop",
+  "version": "1.0.0",
+  "private": false,
+  "dependencies": {
+    "electron": "^2.0.0"
+  },
+  "subdomain": "subdomain",
+  "engines": {
+    "node": "*"
+  },
+  "scripts": {
+    "debug": "DEBUG=true ./node_modules/electron/cli.js ./main.js",
+    "start": "./node_modules/electron/cli.js ./main.js"
+  }
+}
